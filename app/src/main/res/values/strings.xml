@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ChatBox</string>
+
+
+    <string name="facebook_app_id">721644329140560</string>
+    <string name="fb_login_protocol_scheme">fb1234</string>
+    <string name="facebook_client_token">0ec849ac670389a7ced3c242f43d8be5</string>
+
+
+</resources>

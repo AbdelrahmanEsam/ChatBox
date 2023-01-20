@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.ChatBox" parent="android:Theme.Material.NoActionBar.Fullscreen">
+        <item name="android:statusBarColor">@color/purple_700</item>
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+
+
+
+
+<style name="Theme.ChatBoxWithStatus" parent="android:Theme.Material.NoActionBar.Fullscreen">
+    <item name="android:statusBarColor">@color/purple_700</item>
+    <item name="android:windowTranslucentStatus">false</item>
+</style>
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="onBoarding">Connect \nfriends \neasily &amp; \nquickly</string>
+    <string name="brief" >Our chat app is the perfect way to stay \nconnected with friends and family.</string>
+    <string name="or">OR</string>
+    <string name="signup_with_email">Sign up with E-mail</string>
+    <string name="existing_account">Existing account?</string>
+    <string name="login"> Log in</string>
+    <string name="login_into">Log in to Chatbox</string>
+    <string name="login_brief">Welcome back! Sign in using your social \naccount or email to continue us</string>
+    <string name="signup_into">Sign up with Email</string>
+    <string name="signup_brief">Get chatting with friends and family today by \nsigning up for our chat app!</string>
+    <string name="your_number">Your number</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="go_to_signup">Don\'t have an account?</string>
+    <string name="error">error</string>
+    <string name="create_account">Create an account</string>
+    <string name="your_name">Your name</string>
+
+
+
+
+</resources>

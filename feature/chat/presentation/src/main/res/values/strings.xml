@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="profile_image">Profile Image</string>
+    <string name="messages">Messages</string>
+    <string name="calls">Calls</string>
+    <string name="contacts">Contacts</string>
+    <string name="settings">Settings</string>
+    <string name="home">Home</string>
+    <string name="search">search</string>
+    <string name="trash_button">trash button</string>
+    <string name="notification_button">notification button</string>
+    <string name="play_the_record">play the record</string>
+    <string name="make_voice_call">make a call</string>
+    <string name="make_video_call">make a video call</string>
+</resources>

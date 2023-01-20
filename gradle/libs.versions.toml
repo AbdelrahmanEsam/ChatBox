@@ -1,0 +1,95 @@
+[versions]
+androidxCore = "1.9.0"
+androidGradlePlugin = "7.3.1"
+compose = "1.4.0-alpha04"
+hilt = "2.42"
+daggerHiltCompiler = "2.44.2"
+hiltCompiler = "1.0.0"
+hiltNavigation = "1.0.0"
+kotlin = "1.9.0"
+kotlin-coroutines = "1.3.9"
+kotlin-coroutines-play = "1.6.4"
+kotlinJVM = "1.8.0-Beta"
+ksp = "1.7.20-1.0.7"
+composeActivity = "1.5.1"
+sdp = "1.1.0"
+ssp = "1.0.6"
+windowManager = "1.1.0-alpha03"
+navigationCompose = "2.5.1"
+navigation = "2.5.3"
+lottie = "5.2.0"
+retrofitCore = "2.9.0"
+okhttp = "4.10.0"
+retrofitIntercepter = "5.0.0-alpha.3"
+datastore = "1.0.0"
+testExt = "1.1.3"
+junit = "4.13.2"
+espresso = "3.4.0"
+constraintlayout = "2.1.4"
+constraintlayoutCompose = "1.0.1"
+lifecycle = "2.5.1"
+lifecycleRuntime = "2.6.0-alpha04"
+extensions = "2.2.0"
+splash = "1.0.0-beta02"
+
+
+
+#org.jetbrains.kotlinx:kotlinx-coroutines-play-services:1.6.4
+
+[libraries]
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "androidxCore" }
+androidx-core-kotlin= { group =  "androidx.core",name = "core-ktx" , version.ref = "kotlin"}
+kotlin-coroutines= { group =  "org.jetbrains.kotlinx",name = "kotlinx-coroutines-android" , version.ref = "kotlin-coroutines"}
+kotlin-coroutines-play= { group =  "org.jetbrains.kotlinx",name = "kotlinx-coroutines-play-services" , version.ref = "kotlin-coroutines-play"}
+androidx-compose-UI = {group = "androidx.compose.ui" ,name = "ui" , version.ref = "compose"}
+androidx-compose-material = {group = "androidx.compose.material",name = "material" ,  version.ref = "compose"}
+androidx-compose-tooling= {group = "androidx.compose.ui",name = "ui-tooling-preview" , version.ref = "compose"}
+androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+androidx-constraintlayout-compose = { group = "androidx.constraintlayout", name = "constraintlayout-compose", version.ref = "constraintlayoutCompose" }
+androidx-core-splash = {group = "androidx.core",name = "core-splashscreen",version.ref = "splash"}
+androidx-lifecycle-runtime= {group = "androidx.lifecycle",name = "lifecycle-runtime-ktx" , version.ref = "compose"}
+androidx-lifecycle-compose= {group = "androidx.lifecycle",name = "lifecycle-runtime-compose" , version.ref = "lifecycleRuntime"}
+androidx-lifecycle-common= {group = "androidx.lifecycle",name = "lifecycle-common-java8" , version.ref = "lifecycle"}
+androidx-lifecycle-extensions= {group = "androidx.lifecycle",name = "lifecycle-extensions" , version.ref = "extensions"}
+androidx-lifecycle-viewmodel-ktx= {group = "androidx.lifecycle",name = "lifecycle-viewmodel-ktx" , version.ref = "lifecycle"}
+androidx-lifecycle-livedata-ktx= {group = "androidx.lifecycle",name = "lifecycle-livedata-ktx" , version.ref = "lifecycle"}
+androidx-lifecycle-runtime-ktx= {group = "androidx.lifecycle",name = "lifecycle-runtime-ktx" , version.ref = "lifecycle"}
+androidx-datastore-core = { group = "androidx.datastore", name = "datastore-preferences-core",version.ref = "datastore" }
+androidx-datastore-pref= { group = "androidx.datastore",name= "datastore-preferences", version.ref = "datastore" }
+androidx-activity-compose = {group = "androidx.activity",name = "activity-compose" ,version.ref = "composeActivity"}
+androidx-compose-UI-test = {group = "androidx.compose.ui",name = "ui-test-junit4" ,version.ref = "compose"}
+androidx-compose-UI-test-manifest = {group = "androidx.compose.ui",name = "ui-test-manifest" ,version.ref = "compose"}
+androidx-navigation-compose = { group = "androidx.navigation", name = "navigation-compose" ,  version.ref = "navigationCompose" }
+androidx-navigation-fragment = { group = "androidx.navigation", name = "navigation-fragment-ktx" ,  version.ref = "navigation" }
+androidx-navigation-ui = { group = "androidx.navigation", name = "navigation-ui-ktx" ,  version.ref = "navigation" }
+androidx-test-ext = {group = "androidx.test.ext",name = "junit" ,version.ref = "testExt"}
+androidx-test-espresso = {group = "androidx.test.espresso",name = "espresso-core" ,version.ref = "espresso"}
+androidx-hilt-compiler = {group = "androidx.hilt",name = "hilt-compiler" ,version.ref = "hiltCompiler" }
+androidx-hilt-navigation = {group = "androidx.hilt",name = "hilt-navigation-compose" , version.ref = "hiltNavigation" }
+hilt-android = {group = "com.google.dagger",name ="hilt-android" ,version.ref = "daggerHiltCompiler" }
+hilt-compiler = {group = "com.google.dagger",name = "hilt-compiler" ,version.ref = "daggerHiltCompiler" }
+junit = {group = "junit",name = "junit" , version.ref = "junit" }
+
+ssp = { group = "com.intuit.ssp",name = "ssp-android" , version.ref = "ssp" }
+sdp = { group = "com.intuit.sdp",name = "sdp-android" , version.ref = "sdp" }
+window-manager = { group = "androidx.window",name = "window" , version.ref = "windowManager" }
+
+retrofit-core = { group = "com.squareup.retrofit2", name = "retrofit" ,  version.ref = "retrofitCore" }
+retrofit-gson-converter = { group = "com.squareup.retrofit2", name = "converter-gson", version.ref = "retrofitCore" }
+retrofit-interceptor = { group = "com.squareup.okhttp3",name = "logging-interceptor" ,  version.ref = "retrofitIntercepter" }
+okhttp-core =  { group = "com.squareup.okhttp3",name = "okhttp" ,  version.ref = "okhttp" }
+
+
+
+
+
+
+[bundles]
+retrofit-bundle = ["retrofit-gson-converter","retrofit-interceptor","retrofit-core","okhttp-core"]
+hilt-bundle = ["hilt-android","androidx-hilt-navigation"]
+
+
+
+
+
+[plugins]
